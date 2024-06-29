@@ -182,6 +182,7 @@ On Error GoTo ErrorHandler
     Dim replaceCommaID As String
     Dim replaceCommaCounter As String
     Dim cellRowCount As Integer
+
     ' #Part3# filling combined text of array to cells
      For textToCell = LBound(combineText_array) To UBound(combineText_array)
         
